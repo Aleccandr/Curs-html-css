@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto & display=swap');
+@media  (max-width: 500px) {
+    .counteiner {display: block;
+        text-align: center;
+        font-size: 10px;
+    }
+}
+
+    
+
+    
+
+body {
+    background: #ddd;
+    font-family:'Roboto';
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.img {
+
+    margin: auto;
+    width: 250px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 40px rgba(0,0,0,0.5);
+}
+
+.counteiner {
+    max-width: 600px;
+    margin: auto;
+}
+.card {
+    width: 32%;
+    display: flex;
+    margin-bottom: 10px;
+}
+.table {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    word-spacing: 10px;
+    font-style: italic;
+    background: antiquewhite;
+    font-weight: bold;
+    border-radius: 10px;
+
+
+}
+
+.table thead {
+    background: rosybrown;
+    text-align: center;
+
+}
+
+.table th {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.table th:hover{
+    color: #dddddd;
+    transition: 1s;
+}
+.table tbody {
+    text-align: center;
+    background: rgba(51, 59, 94, 0.7);
+
+}
+.table td:hover {
+    text-align: left;
+    background: rgba(233, 233, 238, 0.7);
+    border-radius: 10px;
+
+}
+
+.table td {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+p {
+    font-weight: bold;
+}
+.ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background: -webkit-linear-gradient(aqua,wheat);
+    opacity: 0.5;
+}
+
+.ol li {
+    margin-left: 30px;
+    margin-bottom: 10px;
+    padding-left: 15px;
+}
+
+.head {
+    background: wheat;
+    border-radius: 15px;
+    padding-left: 15px;
+}
+.osebe {
+    margin-left: 10px;
+    border-radius: 5px;
+    color: black;
+
+}
+.link {
+    border: 2px solid black;
+    border-radius: 3px ;
+    background: rosybrown;
+}
+
+.btn {
+    color: #c7bea9;
+    padding: 6px 50px;
+    background: rgba(30,30,30,0.7);
+    margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.btn:hover {
+    background: #dddddd;
+    color: #2c3e50;
+    opacity: 0.5;
+    transition: 1s;
+    border-color: #42b983;
+}
+.form h3 {
+    text-align: center;
+}
+.form-row {
+    margin-bottom: 15px;
+}
+.form-row .form-group {
+    display: inline-block;
+    margin-right: 20px;
+    width: 46%;
+}
+.form-group label {
+    display: block;
+}
+.form-group input, textarea {
+    width: 100%;
+    color: #b2b2b2;
+    background: transparent;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+}
